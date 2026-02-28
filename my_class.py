@@ -1,4 +1,4 @@
-
+# this class get a list and print avg
 class Student:
     def __init__(self,name,marks):
         self.name=name
