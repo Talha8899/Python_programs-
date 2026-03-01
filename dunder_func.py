@@ -7,3 +7,7 @@ class Order:
     def __gt__(self,orde2):
         return self.price>orde2.price
 
+orde1=Order("chips",80)
+orde2=Order("cock",90)
+print(orde2.price)
+print(orde2>orde1)
