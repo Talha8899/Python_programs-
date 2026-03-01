@@ -10,3 +10,4 @@ class Order:
 orde1=Order("chips",80)
 orde2=Order("cock",90)
 print(orde2.price)
+print(orde2>orde1)
