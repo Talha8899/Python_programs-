@@ -11,5 +11,3 @@ class Student:
             value+=i
         print(self.name,"your average number is",value/len(self.marks))
     
-s1=Student("Talha",[23,35])
-s1.get_avg()
