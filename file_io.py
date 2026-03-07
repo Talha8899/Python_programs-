@@ -4,4 +4,4 @@ with open("myfile.txt","+w")as f:
 with open("myfile.txt","+a")as f:
     data=f.read()
     print(data)
-    
+    f.write("\nnice to meet you")
